@@ -1,0 +1,69 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e67e22;  /* Construction Orange */
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;  /* Adjust to your logo size */
+    margin-bottom: 20px;
+}
+
+.coming-soon h1 {
+    font-size: 50px;
+    color: #fff;  /* White text for contrast against the orange background */
+    margin-bottom: 10px;
+}
+
+.coming-soon p {
+    font-size: 20px;
+    color: #fff;  /* White text for contrast */
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;  /* White text for contrast */
+}
+
+.contact p {
+    font-size: 18px;
+    color: #fff;  /* White text for contrast */
+}
+
+.countdown {
+    margin-top: 40px;
+}
+
+#countdown-timer {
+    font-size: 30px;
+    color: #fff;  /* White text for contrast */
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #ecf0f1;  /* Lighter gray text for footer */
+}
